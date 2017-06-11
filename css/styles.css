@@ -1,7 +1,3 @@
-/*CHANGE RED,GREEN,MUSTARD COLOR//GRAY IS FINE*/
-
-
-
 /* Global Layout Set-up */
 * {
   box-sizing: border-box;
@@ -20,11 +16,11 @@ body {
 
 a {
   text-decoration: none;
-  color: #999;
+  color: lightgray;
 }
 
 a:hover {
-  color: #999;
+  color: lightgray;
 }
 
 /* Section Styles */
@@ -68,15 +64,23 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('../img/concert02_with_text.jpg') no-repeat top center ;
+  background: url('../img/concert02_no_text.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
   height: 350px;
+    }
+
+.main-heading {
+  font-size: 2.5em;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  margin-top: 87px;
 }
 
 .tag {
-  color: black;
+  color: lightgray;
   padding: 10px;
   letter-spacing: 5px;
 }
@@ -91,8 +95,13 @@ header .name{
 .tagline {
   font-weight: 600;
   padding: 20px;
-  text-transform: uppercase;
+  text-transform: lowercase;
   color: #42e8f4;
+}
+
+h3 {
+    font-size: 1.5em;
+    text-transform: uppercase;
 }
 
 .card {
@@ -121,12 +130,10 @@ header .name{
   position: absolute;*/
 }
 
-.heading{
-  font-size: 2em;
-  text-transform: uppercase;
-  color: #42f4d9;
-  margin-top: 10px;
-}
+
+
+    
+
 
 /* Footer styles */
 
@@ -193,6 +200,17 @@ a.social:hover {
   header {
     min-height: 470px;
   }
+    
+    .main-heading {
+         font-size: 4em;
+        
+        
+    }
+    
+    .tagline {
+         font-size: 2em;
+        
+    }
 
   .nav {
     max-width: 1200px;
