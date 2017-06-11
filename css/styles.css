@@ -20,7 +20,9 @@ a {
 }
 
 a:hover {
-  color: lightgray;
+  color: #f48352;
+  text-decoration: underline;
+  
 }
 
 /* Section Styles */
@@ -59,7 +61,8 @@ a:hover {
 }
 
 .nav a:hover {
-  color: white
+  color: #f48352;
+  text-decoration: underline;
 }
 
 header {
