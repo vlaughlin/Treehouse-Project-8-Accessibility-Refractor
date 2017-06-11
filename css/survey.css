@@ -1,5 +1,27 @@
 /* Survey page styles */
 
+
+.main-heading {
+  font-size: 2.5em;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  margin-top: 87px;
+}
+    
+.tagline {
+  font-weight: 600;
+  padding: 20px;
+  text-transform:lowercase;
+  color: #42e8f4;
+}
+
+
+h3 {
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
 .photo{
   width: 60%;
   padding: 10px;
@@ -20,9 +42,23 @@ form {
 }
 
 
+
+
 /* Styles for larger screens */
 @media screen and (min-width: 840px) {
   .photo{
     width: 40%;
   }
+    
+       
+    .main-heading {
+         font-size: 4em;
+        
+        
+    }
+    
+    .tagline {
+         font-size: 2em;
+        
+    }
 }
