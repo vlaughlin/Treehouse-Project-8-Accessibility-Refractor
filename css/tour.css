@@ -1,11 +1,22 @@
 /* Tour page styles */
 
-pre {
+table {
+  width: 100%;
   font-family: 'Open Sans', sans-serif;
-
   text-align:left;
-  margin-top: 10px;
+  margin-top: 25px;
    
+}
+
+
+table, th, td {
+    border: 1px solid #f48352;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 10px;
+   vertical-align:text-bottom;
+    text-align: center;
 }
 
 
@@ -30,13 +41,15 @@ pre {
   display: inline-block;
   margin:0;
   text-transform: uppercase;
-  
+  text-align: left;
+    
 }
+  
 
 .pick{
-  width: 47px;
-  height: 0%;
-  padding: 10px;
+  width: 25px;
+  height 5%;
+  padding: 0px;
   
 }
 
