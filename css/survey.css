@@ -17,7 +17,7 @@
 }
 
 
-h3 {
+legend {
     font-size: 1.5em;
     text-transform: uppercase;
 }
@@ -66,6 +66,11 @@ label {
     width: 140px;
 }
 
+
+fieldset {
+        border: 0 none;
+    }
+
 /* Styles for plarger screens */
 @media screen and (min-width: 840px) {
   .photo{
@@ -83,4 +88,16 @@ label {
          font-size: 2em;
         
     }
+    
+   /*Align form*/
+   
+    .container {
+         position:relative;
+    float:right;
+  
+    padding-right: 200px;
+    padding-top: 1px;
+    }
+
+  
 }
