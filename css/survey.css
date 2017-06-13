@@ -33,6 +33,11 @@ form {
   display: inline-block;
 }
 
+input:focus, textarea:focus {
+    background-color: yellow;
+    border: 2px solid black;
+}
+
 .container{
   text-align: center;
 }
@@ -41,10 +46,27 @@ form {
 
 }
 
+input {
+    margin-top: 11px;
+    margin-bottom: 11px;
+    display:inline-block;
+    *display: inline;     /* for IE7*/
+    zoom:1;              /* for IE7*/
+    vertical-align:middle;
+    margin-left:20px
+}
 
+label {
+    display:inline-block;
+    *display: inline;     /* for IE7*/
+    zoom:1;              /* for IE7*/
+    float: left;
+    padding-top: 8px;
+    text-align: right;
+    width: 140px;
+}
 
-
-/* Styles for larger screens */
+/* Styles for plarger screens */
 @media screen and (min-width: 840px) {
   .photo{
     width: 40%;
