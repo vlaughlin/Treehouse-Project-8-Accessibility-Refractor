@@ -1,6 +1,7 @@
 /* Survey page styles */
 
 
+
 .main-heading {
   font-size: 2.5em;
   text-transform: uppercase;
@@ -16,21 +17,45 @@
   color: #42e8f4;
 }
 
-
 legend {
     font-size: 1.5em;
     text-transform: uppercase;
+    padding:20px;
+   
 }
 
-.photo{
-  width: 60%;
-  padding: 10px;
-}
 
 form {
   margin: 0 auto;
   text-align: left;
   display: inline-block;
+  padding: 20px 10px;
+
+
+}
+
+label {
+    font-size: 1rem;
+   display: block;
+   margin-top: 1.5em;
+   margin-bottom: .5em;
+}
+
+.photo {
+  width:100%;
+  padding-top: 50px;
+}
+
+
+.container {
+text-align: right;
+  display: inline-block;
+  padding:20px;
+ 
+}
+
+button {
+    margin:30px;
 }
 
 input:focus, textarea:focus {
@@ -38,33 +63,23 @@ input:focus, textarea:focus {
     border: 2px solid black;
 }
 
-.container{
-  text-align: center;
-}
-.newsletter{
-  text-align: right;
+
+
 
 }
 
 input {
+
     margin-top: 11px;
     margin-bottom: 11px;
     display:inline-block;
-    *display: inline;     /* for IE7*/
-    zoom:1;              /* for IE7*/
     vertical-align:middle;
-    margin-left:20px
+    margin-left:100px;
 }
 
-label {
-    display:inline-block;
-    *display: inline;     /* for IE7*/
-    zoom:1;              /* for IE7*/
-    float: left;
-    padding-top: 8px;
-    text-align: right;
-    width: 140px;
-}
+
+  
+    
 
 
 fieldset {
@@ -73,6 +88,19 @@ fieldset {
 
 /* Styles for plarger screens */
 @media screen and (min-width: 840px) {
+    
+    
+    form {
+        
+        width:400px;
+        
+        
+    }
+    
+
+
+    
+    
   .photo{
     width: 40%;
   }
@@ -89,15 +117,15 @@ fieldset {
         
     }
     
-   /*Align form*/
-   
-    .container {
-         position:relative;
-    float:right;
-  
-    padding-right: 200px;
-    padding-top: 1px;
-    }
+    
+    
 
-  
+label {
+
+   display: inline-block;
+
+
+    }
+    
+    
 }
