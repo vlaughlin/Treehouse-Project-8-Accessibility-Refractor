@@ -19,7 +19,7 @@ a {
         color: lightgray;
 }
 a:hover {
-        color: #f48352;
+        color: yellow;
         text-decoration: underline;
 }
 
@@ -54,7 +54,7 @@ a:hover {
         transition: all .5s;
 }
 .nav a:hover {
-        color: #f48352;
+        color: yellow;
         text-decoration: underline;
 }
 header {
